@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Asif & Naziya Wedding Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:nikah-20260906@asifwedsnaziya
+DTSTAMP:20260707T000000Z
+
+SUMMARY: Asif & Naziya — Nikah
+
+DTSTART:20260906T113000
+DTEND:20260906T133000
+
+LOCATION:BVKR Convention Hall, Gooty Road, Anantapur
+
+DESCRIPTION:You are warmly invited to celebrate the Nikah of Asif & Naziya.\n\nVenue: BVKR Convention Hall, Gooty Road, Anantapur\n\nWe look forward to celebrating this joyous occasion with you.
+
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nikah is just one week away!
+TRIGGER:-P7D
+END:VALARM
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Asif & Naziya's Nikah!
+TRIGGER:-P1D
+END:VALARM
+
+END:VEVENT
+END:VCALENDAR

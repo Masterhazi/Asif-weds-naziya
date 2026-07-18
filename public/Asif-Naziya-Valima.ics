@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Asif & Naziya Wedding Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:valima-20260907@asifwedsnaziya
+DTSTAMP:20260707T000000Z
+
+SUMMARY:🎉 Asif & Naziya — Valima
+
+DTSTART:20260907T123000
+DTEND:20260907T143000
+
+LOCATION:SLN Varahaalu Gardens, Nandyal Road, Tadipatri
+
+DESCRIPTION:You are warmly invited to celebrate the Valima of Asif & Naziya.\n\nVenue: SLN Varahaalu Gardens, Nandyal Road, Tadipatri\n\nWe look forward to celebrating this joyous occasion with you.
+
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Valima is just one week away!
+TRIGGER:-P7D
+END:VALARM
+
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is Asif & Naziya's Valima!
+TRIGGER:-P1D
+END:VALARM
+
+END:VEVENT
+END:VCALENDAR

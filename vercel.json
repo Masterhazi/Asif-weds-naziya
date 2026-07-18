@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/((?!assets/|music/|favicon.ico|robots.txt|sitemap.xml).*)",
+      "destination": "/"
+    }
+  ]
+}
